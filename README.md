@@ -35,12 +35,8 @@ Matplotlib & Seaborn (Visualization)
 Pandas, NumPy (Data handling)
 
 📂 Project Structure
-├── eurosat_filtered/        # Filtered dataset (Forest, Residential, SeaLake)
-├── image_dataset.csv        # CSV with image paths & labels
-├── Modelenv.v1.h5           # Trained CNN model
-├── class_indices.json       # Mapping of classes
-├── notebook.ipynb           # Jupyter Notebook / Colab file
-└── README.md                # Project documentation
+<img width="960" height="238" alt="image" src="https://github.com/user-attachments/assets/0343f9a0-8d0d-4586-bf33-ab9ebb9c26e1" />
+
 
 🚀 Implementation
 1️⃣ Data Preparation
@@ -59,15 +55,25 @@ Rescaling to 0–1
 
 2️⃣ Model Architecture (CNN)
 model = Sequential()
+
 model.add(Conv2D(32, (3,3), activation='relu', input_shape=(255, 255, 3)))
+
 model.add(MaxPooling2D(2,2))
+
 model.add(Conv2D(64, (3,3), activation='relu'))
+
 model.add(MaxPooling2D(2,2))
+
 model.add(Conv2D(128, (3,3), activation='relu'))
+
 model.add(MaxPooling2D(2,2))
+
 model.add(Flatten())
+
 model.add(Dense(128, activation='relu'))
+
 model.add(Dropout(0.5))
+
 model.add(Dense(3, activation='softmax'))
 
 
