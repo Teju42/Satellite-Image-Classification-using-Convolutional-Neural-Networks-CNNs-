@@ -1,6 +1,6 @@
 🌍 Satellite Image Classification using CNN (EuroSAT Dataset)
-📌 Project Overview
 
+📌 Project Overview
 This project implements a Convolutional Neural Network (CNN) to classify satellite images from the EuroSAT dataset.
 We restricted the dataset to 3 classes:
 
