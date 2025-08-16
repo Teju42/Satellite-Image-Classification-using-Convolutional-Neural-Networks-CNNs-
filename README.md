@@ -94,13 +94,6 @@ Metrics: Accuracy
 📊 Evaluation
 
 Classification Report:
-
-              precision    recall  f1-score   support
-      Forest       0.97      0.98      0.98      3000
- Residential       1.00      1.00      1.00      3000
-     SeaLake       0.98      0.97      0.98      3000
-
-
 Confusion Matrix:
 
 
