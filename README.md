@@ -51,6 +51,9 @@ Horizontal & Vertical flips
 
 Rescaling to 0–1
 
+<img width="758" height="782" alt="Screenshot 2025-08-17 140325" src="https://github.com/user-attachments/assets/90f3135f-9c3b-41a9-b9d1-1b1c8836ad7c" />
+
+
 2️⃣ Model Architecture (CNN)
 model = Sequential()
 
@@ -93,6 +96,7 @@ Metrics: Accuracy
 
 Classification Report:
 Confusion Matrix:
+<img width="417" height="555" alt="Screenshot 2025-08-17 140404" src="https://github.com/user-attachments/assets/d8457574-5497-485b-9118-e3dfe0f20523" />
 
 
 🌱 Relevance to SDGs
