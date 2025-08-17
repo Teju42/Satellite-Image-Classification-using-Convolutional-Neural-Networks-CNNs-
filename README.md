@@ -34,9 +34,7 @@ Matplotlib & Seaborn (Visualization)
 
 Pandas, NumPy (Data handling)
 
-📂 Project Structure
-<img width="960" height="238" alt="image" src="https://github.com/user-attachments/assets/0343f9a0-8d0d-4586-bf33-ab9ebb9c26e1" />
-
+Dataset Source: https://www.kaggle.com/datasets/apollo2506/eurosat-dataset
 
 🚀 Implementation
 1️⃣ Data Preparation
